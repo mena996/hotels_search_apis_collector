@@ -1,0 +1,58 @@
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 25%;
+}
+
+#customers {
+  width: 100%;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0576aa;
+  color: white;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.input-price {
+  width: 100px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination div {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination div.active {
+  background-color: #0576aa;
+  color: white;
+}
+
+.paginationWrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
